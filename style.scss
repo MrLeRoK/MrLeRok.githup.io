@@ -1,0 +1,103 @@
+// импорт шрифтлв
+@import "sass/font";
+
+
+
+
+@import "components/Header";
+@import "components/burgerMenu";
+@import "components/service";
+@import "components/navigation";
+@import "components/section";
+@import "components/brandRepair";
+@import "components/slideBrand";
+@import "components/equipmentRepair";
+@import "components/equipmentSlider";
+@import "components/price-menu";
+@import "components/nds-menu";
+@import "components/footer-text";
+@import "components/price-table";
+@import "components/modal-window";
+@import "components/modal-window2";
+
+
+
+@import "sass/var";
+@import "sass/normalize";
+
+
+.wrapper {
+  min-width: 100%;
+  height: auto;
+
+  background-color: #F8F8F8;
+
+}
+
+//.wrapper.active {
+//  overflow: hidden;
+//}
+
+body {
+  font-family: TT Lakes;
+}
+
+
+.icons {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #FF3E79;
+  border: none;
+}
+
+//.container__hidden {
+//  @media screen and (min-width: 20px) and (max-width: 360px) {
+//    transform: translateY(-1000px);
+//  }
+//}
+
+.container__hidden.active {
+  //transition: all 0.3s ease;
+  transition: all 1000ms ease;
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    left: 0;
+  }
+
+  @media screen and (width: 360px) {
+    width: 360px;
+  }
+}
+
+
+
+.menu__burger.active::before  {
+  //transition: transform 500ms ease;
+  transform: rotate(46deg) translateY(4px) translateX(4px);
+}
+
+.menu__burger.active::after  {
+  content: '';
+  display: none;
+}
+
+.menu__burger.active span {
+  content: '';
+  width: 18px;
+  //transition: transform 500ms ease;
+  transform: rotate(-45deg) translateY(2px) translateX(4px);
+}
+
+.container {
+  transition: transform 800ms ease, padding 800ms ease;
+  @media (min-width: 1439px) {
+    transform:  translateY(-70px);
+    padding-left: 320px;
+  }
+
+}
+
+
+
+
+

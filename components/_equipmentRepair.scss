@@ -1,0 +1,36 @@
+
+.equipmentRepair-header {
+  width: 100%;
+  height: 80px;
+  margin-top: 16px;
+  background-color: #FFFFFF;
+
+  @media screen and (min-width: 767px) and (max-width: 1119px) {
+    height: 56px;
+  }
+
+  .equipmentRepair-header__tittle {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #7E7E82;
+    padding: 16px;
+    text-transform: uppercase;
+  }
+}
+
+.price-header {
+  width: 100%;
+  height: 56px;
+  margin-top: 16px;
+  background-color: #FFFFFF;
+
+  .price-header__tittle {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #7E7E82;
+    padding: 16px;
+    text-transform: uppercase;
+  }
+}

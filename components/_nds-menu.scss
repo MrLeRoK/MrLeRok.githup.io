@@ -1,0 +1,48 @@
+
+.nds-menu {
+  //text-align: center;
+  vertical-align: center;
+  .nds-menu-text {
+    padding: 16px;
+
+    @media screen and (min-width: 767px) and (max-width: 1439px) {
+      padding: 24px;
+    }
+
+    @media screen and (min-width: 1439px) {
+      padding: 32px;
+    }
+
+    @media screen and (min-width: 767px) {
+      max-width: 441px;
+
+    }
+
+    span {
+      height: auto;
+      font-size: 14px;
+      line-height: 20px;
+      color: #1B1C21;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 700;
+      padding-top: 15px;
+      white-space: pre-line;
+
+      @media screen and (min-width: 767px) {
+        white-space: nowrap;
+      }
+
+      img {
+        position: relative;
+        top: 1.5px;
+        padding-left: 5px;
+        vertical-align: center;
+        text-align: center;
+      }
+    }
+  }
+}

@@ -1,0 +1,125 @@
+
+.price-menu {
+  //display: flex;
+  //flex-direction: column;
+  padding: 16px 0 0 8px;
+
+  @media screen and (min-width: 767px) {
+    display: none;
+  }
+
+ .price-menu__wrapper {
+
+   .price-menu__slider {
+
+
+     .price-menu__list {
+       min-width: 260px;
+       height: 200px;
+       padding: 16px 0 20px 16px;
+       background-color: #FFFFFF;
+       border: 1px solid #EAEAEA;
+       border-radius: 6px;
+
+       .repair-services {
+         padding-bottom: 16px;
+
+         span {
+           font-size: 14px;
+           line-height: 16px;
+           padding-bottom: 16px;
+           color: #7E7E82;
+         }
+
+         p {
+           font-size: 14px;
+           line-height: 18px;
+           font-weight: 700;
+           color: #1B1C21;
+
+         }
+       }
+
+       .price {
+         padding-bottom: 16px;
+
+         span {
+           font-size: 14px;
+           line-height: 16px;
+           padding-bottom: 16px;
+           color: #7E7E82;
+         }
+
+         p {
+           font-size: 14px;
+           line-height: 18px;
+           font-weight: 700;
+           color: #1B1C21;
+
+         }
+       }
+
+       .term {
+         padding-bottom: 16px;
+
+         span {
+           font-size: 14px;
+           line-height: 16px;
+           padding-bottom: 16px;
+           color: #7E7E82;
+         }
+
+         p {
+           font-size: 14px;
+           line-height: 18px;
+           font-weight: 700;
+           color: #1B1C21;
+
+         }
+       }
+
+
+       .button-order {
+         position: relative;
+         left: 110px;
+         bottom: 40px;
+         width: 119px;
+         height: 32px;
+         border-radius: 16px;
+         background-color: #FF3E79;
+
+         span {
+           position: absolute;
+           top: 4px;
+           left: 12px;
+           font-size: 12px;
+           line-height: 24px;
+           color: #FFFFFF;
+         }
+
+         img {
+           position: absolute;
+           top: 10px;
+           left: 100px;
+           color: #1B1C21;
+           outline: none;
+         }
+       }
+
+     }
+   }
+ }
+  //.swiper-pagination {
+  //  position: relative;
+  //  padding-top: 20px;
+  //
+  //  .swiper-pagination-bullet {
+  //    width: 10px;
+  //    height: 10px;
+  //    line-height: 20px;
+  //    font-size: 14px;
+  //    background-color: red;
+  //
+  //  }
+  //}
+}

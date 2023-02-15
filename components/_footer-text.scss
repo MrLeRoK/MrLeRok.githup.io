@@ -1,0 +1,25 @@
+
+.footer {
+  text-align: center;
+  padding-top: 57px;
+
+  .footer-text {
+    font-size: 14px;
+    line-height: 16px;
+    white-space: pre-line;
+    color: #7E7E82;
+
+    @media screen and (min-width: 767px) and (max-width: 1439px) {
+      display: flex;
+      justify-content: space-between;
+      padding: 40px 24px 41px 24px ;
+    }
+
+    @media screen and (min-width: 1439px) {
+      display: flex;
+      justify-content: space-between;
+      padding: 100px 32px ;
+    }
+
+  }
+}

@@ -1,0 +1,86 @@
+
+.equipmentRepair-slider {
+
+  .equipmentRepair-slider__wrapper {
+
+    .equipmentRepair-slider__slider{
+
+      @media screen and  (min-width: 768px) and (max-width: 1119px) {
+        //min-width: 224px;
+        //flex-wrap: nowrap;
+        &:last-child {
+          display: none;
+        }
+      }
+
+      .icons-equipmentRepair {
+        position: relative;
+        min-width: 240px;
+        height: 160px;
+        margin: 16px;
+        background: #FFFFFF;
+        border: 1px solid #EAEAEA;
+        border-radius: 6px;
+
+        @media screen and  (min-width: 768px) {
+          min-width: 224px;
+          padding-top: 10px;
+        }
+
+        & span {
+          text-align: left;
+          margin: 16px 0 0 16px;
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: -0.2px;
+          font-weight: 700;
+          color: #1B1C21;
+
+        }
+
+        .button-brands {
+          position: absolute;
+          right: 15px;
+          bottom: 15px;
+          //left: 184px;
+          //top: 80px;
+          width: 40px;
+          height: 40px;
+          border-radius: 20px;
+          border: 2px solid #FF3E79;
+          background: #ffffff;
+          outline: none;
+          transition: color 0.5s;
+
+          @media screen and  (min-width: 768px) {
+            right: 15px;
+            bottom: 15px;
+
+          }
+
+          img {
+            position: absolute;
+            width: 7.5px;
+            height: 12px;
+            top: 12px;
+            left: 16px;
+          }
+        }
+      }
+    }
+  }
+
+  //.swiper-pagination {
+  //  position: relative;
+  //  padding-top: 20px;
+  //
+  //  .swiper-pagination-bullet {
+  //    width: 10px;
+  //    height: 10px;
+  //    line-height: 20px;
+  //    font-size: 14px;
+  //    background-color: darkgray;
+  //
+  //  }
+  //}
+}

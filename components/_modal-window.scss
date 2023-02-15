@@ -1,0 +1,183 @@
+
+.modal-window {
+  background-color: #FFFFFF;
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100%;
+  max-width: 440px;
+  z-index: 1000;
+  border: 1px solid #D9FFF5;
+  box-shadow: -12px 5px 21px 0px rgba(34, 60, 80, 0.2);
+  //transform: translateX(500px);
+
+
+  .modal-window__container {
+    transition: transform 500ms ease;
+    //transform: translateX(0px);
+
+    .modal-window__header {
+      padding: 24px 0 40px 16px;
+      transition: transform 800ms ease;
+
+      @media screen and (min-width: 439px) {
+        //transform: translateY(-500px);
+        transform: translateX(-100px);
+      }
+
+
+      .menu__cross {
+        position: relative;
+
+
+        &::before {
+          content: '';
+          position: absolute;
+          width: 21px;
+          height: 2px;
+          right: 10px;
+          bottom: 18px;
+          background-color: white;
+          transform: rotate(-45deg);
+
+        }
+
+        &::after {
+          content: '';
+          position: absolute;
+          width: 21px;
+          height: 2px;
+          top: 20px;
+          left: 10px;
+          background-color: white;
+          transform: rotate(45deg);
+
+        }
+      }
+    }
+
+
+
+    .menu-body__container {
+      transition: transform 800ms ease;
+
+      @media screen and (min-width: 439px) {
+        transform: translateY(-70px);
+      }
+
+   .feed-back__menu {
+     position: relative;
+
+     &::before {
+       content: '';
+       position: absolute;
+       width: 4px;
+       height: 40px;
+       top: -5px;
+       background: #41F6D7;
+       border-radius: 50px;
+
+     }
+     span {
+       font-size: 24px;
+       line-height: 32px;
+       font-weight: bolder;
+       padding-left: 12px;
+       color: #1B1C21;
+       transition: padding-left 800ms ease;
+       @media screen and (min-width: 439px) {
+         padding-left: 30px;
+       }
+     }
+   }
+
+    .user-data {
+      padding: 24px 16px 0 16px;
+      transition: padding 800ms ease;
+      @media screen and (min-width: 439px) {
+        padding: 24px 32px 0 32px;
+      }
+
+      .user-data__input {
+          padding-bottom: 16px;
+
+        input {
+          min-width: 100%;
+          height: 48px;
+          font-size: 16px;
+          line-height: 24px;
+          font-weight: 700;
+          padding-left: 10px;
+          border: 1px solid #EAEAEA;
+          border-radius: 8px;
+
+        }
+
+        .input-message {
+          display: inline-block;
+          height: 118px;
+          vertical-align: middle;
+        }
+
+      }
+    }
+
+    .modal-footer {
+      padding: 0 16px ;
+      transition: padding 800ms ease;
+      @media screen and (min-width: 439px) {
+        padding: 0 32px ;
+      }
+
+
+
+      .modal-footer__text {
+        font-size: 14px;
+        line-height: 16px;
+        color: #7E7E82;
+
+        span {
+          color: #FF3E79;
+        }
+      }
+    }
+
+    .button-order__container {
+      display: flex;
+      justify-content: end;
+      padding-top: 23px;
+      transition: padding 800ms ease;
+
+      @media screen and (min-width: 439px) {
+        padding-top: 27px;
+      }
+
+      .button-order {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 119px;
+        height: 32px;
+        border-radius: 16px;
+        background-color: #FF3E79;
+
+        span {
+          font-size: 12px;
+          line-height: 24px;
+          letter-spacing: -0.20px;
+          font-weight: 700;
+          color: #FFFFFF;
+        }
+
+        img {
+          color: #1B1C21;
+          outline: none;
+        }
+      }
+
+    }
+
+    }
+
+  }
+}
